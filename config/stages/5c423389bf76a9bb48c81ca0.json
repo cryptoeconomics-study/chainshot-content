@@ -1,0 +1,14 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c423025bf76a9bb48c81c9e",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Using Keccak-256",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 0,
+  "id": "5c423389bf76a9bb48c81ca0",
+  "testFramework": "mocha_bdd",
+  "languageVersion": "8.x/babel"
+}
