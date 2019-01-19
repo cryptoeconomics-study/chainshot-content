@@ -4,6 +4,6 @@
   "containerType": "BuildingBlock",
   "description": "Learn the magic of hash functions and how signatures work!",
   "thumbnailUrl": "https://i.imgur.com/eCJgVaw.png",
-  "productionReady": false,
+  "productionReady": true,
   "estimatedTime": 60
 }
