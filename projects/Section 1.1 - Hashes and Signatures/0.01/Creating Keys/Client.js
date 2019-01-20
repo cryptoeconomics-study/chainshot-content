@@ -1,12 +1,12 @@
-import EthCrypto from './eth-crypto.js'
+// import EthCrypto from './eth-crypto.js'
 
 class Client {
     constructor() {
-        this.wallet = EthCrypto.createIdentity()
+        // this.wallet = EthCrypto.createIdentity()
     }
 
     toHash(data) {
-        return EthCrypto.hash.keccak256(data)
+        // return EthCrypto.hash.keccak256(data)
     }
 }
 

@@ -1,5 +1,5 @@
 import Client from '../Client.js';
-import EthCrypto from 'eth-crypto';
+// import EthCrypto from 'eth-crypto';
 const assert = require('assert');
 
 describe('Wallet', function() {
