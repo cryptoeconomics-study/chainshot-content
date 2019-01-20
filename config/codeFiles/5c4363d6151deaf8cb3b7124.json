@@ -1,0 +1,17 @@
+{
+  "executablePath": "test/hashTest.js",
+  "name": "hashTest.js",
+  "testFixture": true,
+  "stageContainerId": "5c423025bf76a9bb48c81c9e",
+  "codeStageIds": [
+    "5c423389bf76a9bb48c81ca0"
+  ],
+  "id": "5c4363d6151deaf8cb3b7124",
+  "initialCode": "$$LOOKUP",
+  "executable": true,
+  "fileLocation": null,
+  "hasProgress": null,
+  "mode": "javascript",
+  "readOnly": true,
+  "visible": false
+}

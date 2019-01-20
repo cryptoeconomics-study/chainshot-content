@@ -1,0 +1,12 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c423025bf76a9bb48c81c9e",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Verifying Signatures",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 3,
+  "id": "5c44d72f846b81326d5ec09d"
+}

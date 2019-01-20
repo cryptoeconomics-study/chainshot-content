@@ -1,0 +1,17 @@
+{
+  "executablePath": "test/signatureTest",
+  "name": "signatureTest",
+  "testFixture": true,
+  "stageContainerId": "5c423025bf76a9bb48c81c9e",
+  "codeStageIds": [
+    "5c44c28e846b81326d5ec099"
+  ],
+  "id": "5c44d3ed846b81326d5ec09c",
+  "initialCode": "$$LOOKUP",
+  "executable": null,
+  "fileLocation": null,
+  "hasProgress": null,
+  "mode": "javascript",
+  "readOnly": true,
+  "visible": false
+}
