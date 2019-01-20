@@ -2,6 +2,7 @@ import EthCrypto from './eth-crypto.js'
 
 class Client {
     constructor() {
+        this.wallet = EthCrypto.createIdentity()
     }
 
     toHash(data) {
