@@ -4,7 +4,8 @@ const assert = require('assert');
 
 describe('Hash', function() {
     const data = Math.random();
-    const output = Client.toHash(data);
+    const client = new Client()
+    const output = client.toHash(data);
     it('should return the hash of data', function(){
         // assert.equals(EthCrypto.hash.keccak256(data), output);
         assert(true)
