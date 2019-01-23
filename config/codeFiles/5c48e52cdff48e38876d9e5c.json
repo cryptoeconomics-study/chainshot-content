@@ -1,0 +1,18 @@
+{
+  "executablePath": "eth-crypto.js",
+  "name": "eth-crypto.js",
+  "testFixture": false,
+  "stageContainerId": "5c423025bf76a9bb48c81c9e",
+  "codeStageIds": [
+    "5c423389bf76a9bb48c81ca0",
+    "5c44a42d151deaf8cb3b7125"
+  ],
+  "id": "5c48e52cdff48e38876d9e5c",
+  "initialCode": "$$LOOKUP",
+  "executable": null,
+  "fileLocation": null,
+  "hasProgress": null,
+  "mode": "javascript",
+  "readOnly": null,
+  "visible": null
+}

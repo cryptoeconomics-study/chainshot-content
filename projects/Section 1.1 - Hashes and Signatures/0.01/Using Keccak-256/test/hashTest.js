@@ -1,5 +1,5 @@
 import Client from '../Client.js';
-// import EthCrypto from 'eth-crypto';
+import EthCrypto from '../eth-crypto.js';
 const assert = require('assert');
 
 describe('Hash', function() {
@@ -7,7 +7,7 @@ describe('Hash', function() {
     const client = new Client()
     const output = client.toHash(data);
     it('should return the hash of data', function(){
-        // assert.equals(EthCrypto.hash.keccak256(data), output);
-        assert(true)
+        assert.equal(EthCrypto.hash.keccak256(data), output);
+        // assert(true)
     });
 })

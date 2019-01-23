@@ -1,4 +1,4 @@
-// import EthCrypto from './eth-crypto.js'
+import EthCrypto from './eth-crypto.js'
 
 class Client {
     constructor() {
