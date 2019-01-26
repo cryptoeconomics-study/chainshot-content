@@ -1,5 +1,5 @@
 import Client from '../Client.js';
-import EthCrypto from '../eth-crypto.js';
+import EthCrypto from 'eth-crypto';
 const assert = require('assert');
 
 describe('Hash', function() {

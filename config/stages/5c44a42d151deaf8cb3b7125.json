@@ -10,10 +10,9 @@
   "position": 1,
   "id": "5c44a42d151deaf8cb3b7125",
   "testFramework": "mocha_bdd",
-  "languageVersion": "8.x/babel",
+  "languageVersion": "10.x/babel",
   "codeFileIds": [
     "5c44bba6846b81326d5ec098",
-    "5c44ebc18a6b393fa6ca19d7",
-    "5c48e52cdff48e38876d9e5c"
+    "5c44ebc18a6b393fa6ca19d7"
   ]
 }
