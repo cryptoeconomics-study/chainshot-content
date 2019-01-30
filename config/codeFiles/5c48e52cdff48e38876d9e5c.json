@@ -9,7 +9,7 @@
   ],
   "id": "5c48e52cdff48e38876d9e5c",
   "initialCode": "$$LOOKUP",
-  "executable": null,
+  "executable": false,
   "fileLocation": null,
   "hasProgress": null,
   "mode": "javascript",
