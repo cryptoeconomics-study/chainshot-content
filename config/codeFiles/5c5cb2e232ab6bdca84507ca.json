@@ -1,6 +1,6 @@
 {
   "executablePath": "test/verifyTest",
-  "name": "verifyTest",
+  "name": "verifyTest.js",
   "executable": true,
   "hasProgress": false,
   "mode": "javascript",

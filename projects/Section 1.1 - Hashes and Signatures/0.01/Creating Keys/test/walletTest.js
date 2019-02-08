@@ -8,7 +8,7 @@ describe('Wallet', function() {
     it('should set this.wallet', function(){
         assert(wallet)
     });
-    it('should set this.wallet using createIdentity()', function () {
+    it('should set this.wallet using createIdentity()', function() {
         assert(wallet.address && wallet.publicKey && wallet.privateKey)
     });
 })

@@ -8,6 +8,5 @@ describe('Hash', function() {
     const output = client.toHash(data);
     it('should return the hash of data', function(){
         assert.equal(EthCrypto.hash.keccak256(data), output);
-        // assert(true)
     });
 })

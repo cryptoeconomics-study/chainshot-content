@@ -1,4 +1,4 @@
-import EthCrypto from './eth-crypto.js'
+import EthCrypto from 'eth-crypto'
 
 class Client {
     constructor() {
@@ -10,7 +10,7 @@ class Client {
     }
 
     sign(message) {
-        messageHash = toHash(message)
+        messageHash = this.toHash(message)
         return EthCrypto.sign(
             this.wallet.privateKey,
             messageHash
