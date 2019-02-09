@@ -10,7 +10,7 @@ class Client {
     }
 
     sign(message) {
-        messageHash = this.toHash(message)
+        const messageHash = this.toHash(message)
         return EthCrypto.sign(
             this.wallet.privateKey,
             messageHash

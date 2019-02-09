@@ -1,5 +1,5 @@
 {
-  "executablePath": "test/verifyTest",
+  "executablePath": "test/verifyTest.js",
   "name": "verifyTest.js",
   "executable": true,
   "hasProgress": false,
@@ -11,7 +11,7 @@
   "codeStageIds": [
     "5c44d72f846b81326d5ec09d"
   ],
-  "id": "5c5cb2e232ab6bdca84507ca",
+  "id": "5c5dfb6704e4ff331e972072",
   "initialCode": "$$LOOKUP",
   "fileLocation": null
 }

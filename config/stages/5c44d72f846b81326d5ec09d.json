@@ -11,6 +11,8 @@
   "id": "5c44d72f846b81326d5ec09d",
   "codeFileIds": [
     "5c44ebc18a6b393fa6ca19d7",
-    "5c5cb2e232ab6bdca84507ca"
-  ]
+    "5c5dfb6704e4ff331e972072"
+  ],
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel"
 }

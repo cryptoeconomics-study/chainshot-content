@@ -13,6 +13,6 @@
     "5c44ebc18a6b393fa6ca19d7",
     "5c5deb5d079e2e22c7eb140b"
   ],
-  "testFramework": null,
-  "languageVersion": null
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel"
 }
