@@ -1,6 +1,6 @@
-## Details
+## Digital Signatures
 
-There are several reasons to sign the hash (or message digest) of a document instead of the whole document.
+There are several reasons to sign the hash (or message digest) of a message instead of the whole message.
 
 **For efficiency**
 

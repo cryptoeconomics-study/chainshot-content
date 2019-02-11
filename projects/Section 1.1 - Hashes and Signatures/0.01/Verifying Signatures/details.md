@@ -1,6 +1,6 @@
 ## Verifying Signatures
 
-### Recovering an Ethereum Address
+**Recovering an Ethereum Address**
 
 Given a message and a signature, you can get the Ethereum address of the person who signed the message as follows: https://crypto.stackexchange.com/questions/18105/how-does-recovering-the-public-key-from-an-ecdsa-signature-work?noredirect=1&lq=1
 

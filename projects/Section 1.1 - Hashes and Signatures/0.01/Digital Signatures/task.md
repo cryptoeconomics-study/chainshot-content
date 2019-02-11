@@ -1,4 +1,4 @@
-## Digital Signature
+## Digital Signatures
 
 We use our private key in order to sign messages. Let's create a method function `sign(data)` in our Client class.
 
