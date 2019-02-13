@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/overviewTest.js",
+  "name": "overviewTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c61dfb0e62fed15957fad93",
+  "codeStageIds": [
+    "5c61eb88e62fed15957fad94"
+  ],
+  "id": "5c638cbad81b151995daf31f",
+  "initialCode": "$$LOOKUP"
+}
