@@ -5,7 +5,7 @@ Digital Signatures allow anyone to use someone's address to verify that that use
 Write a `verify` method that takes in 3 parameters (in this order):
 
 1. `signature` - Sender's signature
-2. `messageHash` - Hash of the sender's message
+2. `message` - Hash of the sender's message
 3. `sender` - Sender's Ethereum address 
 
 This function should return true if the signature is valid and false if it is not. 

@@ -1,0 +1,19 @@
+{
+  "executablePath": "Client.js",
+  "name": "Client.js",
+  "executable": true,
+  "hasProgress": true,
+  "mode": "javascript",
+  "readOnly": false,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "5c61dfb0e62fed15957fad93",
+  "codeStageIds": [
+    "5c61eb88e62fed15957fad94",
+    "5c621589e62fed15957fad97",
+    "5c625864d81b151995daf316",
+    "5c636877d81b151995daf31b"
+  ],
+  "id": "5c61eb91e62fed15957fad95",
+  "initialCode": "$$LOOKUP"
+}

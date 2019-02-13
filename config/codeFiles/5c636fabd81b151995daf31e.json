@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/applyTxTest.js",
+  "name": "applyTxTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c61dfb0e62fed15957fad93",
+  "codeStageIds": [
+    "5c636877d81b151995daf31b"
+  ],
+  "id": "5c636fabd81b151995daf31e",
+  "initialCode": "$$LOOKUP"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c61dfb0e62fed15957fad93",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "State Transition Function",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 3,
+  "id": "5c636877d81b151995daf31b",
+  "codeFileIds": [
+    "5c61eb91e62fed15957fad95",
+    "5c6259f4d81b151995daf318",
+    "5c636fabd81b151995daf31e"
+  ],
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c61dfb0e62fed15957fad93",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Payment Processor",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 2,
+  "id": "5c625864d81b151995daf316",
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel",
+  "codeFileIds": [
+    "5c61eb91e62fed15957fad95",
+    "5c6259f4d81b151995daf318",
+    "5c625e63d81b151995daf31a"
+  ]
+}

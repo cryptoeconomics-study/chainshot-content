@@ -1,0 +1,9 @@
+{
+  "title": "Section 1.2 - State Transitions & Payment Processor Implementation",
+  "id": "5c61dfb0e62fed15957fad92",
+  "containerType": "BuildingBlock",
+  "description": "Learn about beautiful state & state transitions, as well as how we use this design pattern to construct our simple payment processor!",
+  "thumbnailUrl": "https://i.imgur.com/82fESlm.png",
+  "productionReady": true,
+  "estimatedTime": 120
+}

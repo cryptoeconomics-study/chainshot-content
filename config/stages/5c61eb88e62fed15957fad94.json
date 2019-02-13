@@ -1,0 +1,17 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c61dfb0e62fed15957fad93",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Overview",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 0,
+  "id": "5c61eb88e62fed15957fad94",
+  "codeFileIds": [
+    "5c61eb91e62fed15957fad95"
+  ],
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel"
+}

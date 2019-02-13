@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/generateTxTest.js",
+  "name": "generateTxTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c61dfb0e62fed15957fad93",
+  "codeStageIds": [
+    "5c621589e62fed15957fad97"
+  ],
+  "id": "5c623890e62fed15957fad9b",
+  "initialCode": "$$LOOKUP"
+}
