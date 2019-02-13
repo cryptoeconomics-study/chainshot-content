@@ -1,0 +1,12 @@
+{
+  "type": "VideoStage",
+  "containerId": "5c423025bf76a9bb48c81c9e",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "test",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 4,
+  "id": "5c647558411fbf375b4ea680"
+}
