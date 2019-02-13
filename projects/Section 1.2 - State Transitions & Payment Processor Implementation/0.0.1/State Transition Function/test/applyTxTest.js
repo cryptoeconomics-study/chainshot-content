@@ -15,6 +15,8 @@ describe('Apply Transactions', function () {
         contents: mintTx.contents, 
         sig: Alice.sign(mintTx.contents)
     }
+    const badSendTx = Alice.generateTx(Bob.wallet.address, 150, 'send')
+
     it('should properly apply "mint" transactions', function () {
         paypal.applyTransaction(mintTx)
         assert.deepEqual(paypal.state, {
@@ -34,11 +36,13 @@ describe('Apply Transactions', function () {
             }
         })
     });
-    //TODO add a seperate test: properly applies spend transactions sent to new addresses
     it('should throw Error when trying to mint from non-Paypal address', function () {
         assert.throws(()=>{paypal.applyTransaction(badMintTx)}, Error)
     })
     it('should throw Error for invalid signatures', function () {
         assert.throws(()=>{paypal.applyTransaction(badSigTx)}, Error)
+    })
+    it('should throw Error for insufficient balance', function () {
+        assert.throws(() => { paypal.applyTransaction(badSendTx)}, Error)
     })
 })
