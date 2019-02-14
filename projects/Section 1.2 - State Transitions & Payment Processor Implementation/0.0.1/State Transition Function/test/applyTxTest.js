@@ -4,8 +4,7 @@ const assert = require('assert');
 import EthCrypto from 'eth-crypto';
 
 describe('Apply Transactions', function () {
-    const genesis = {}
-    let paypal = new Paypal(genesis)
+    let paypal = new Paypal()
     let Alice = new Client()
     let Bob = new Client()
     const mintTx = paypal.generateTx(Alice.wallet.address, 100, 'mint')  
@@ -22,6 +21,9 @@ describe('Apply Transactions', function () {
         assert.deepEqual(paypal.state, {
             [Alice.wallet.address]: {
                 balance: 100
+            },
+            [paypal.wallet.address]: {
+                balance: 0
             }
         })
     });
@@ -33,6 +35,9 @@ describe('Apply Transactions', function () {
             },
             [Bob.wallet.address]: {
                 balance: 35
+            },
+            [paypal.wallet.address]: {
+                balance: 0
             }
         })
     });

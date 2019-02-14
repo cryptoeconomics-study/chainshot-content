@@ -2,7 +2,7 @@ import EthCrypto from 'eth-crypto'
 import Client from './Client.js'
 
 class Paypal extends Client {
-    constructor() {
+    constructor(genesis) {
         super()
         this.state = {
             [this.wallet.address]: {
@@ -14,7 +14,7 @@ class Paypal extends Client {
 
     applyTransaction(tx) {
         // verify the signature
-        const validSig = this.verify (
+        const validSig = this.verify(
             tx.sig,
             this.toHash(tx.contents),
             tx.contents.from
@@ -28,13 +28,9 @@ class Paypal extends Client {
                 balance: 0
             }
         }
-        // Check that the nonce is correct for replay protection
-        //  if (tx.contents.nonce !== state[[tx.contents.from]].nonce + 1) {
-        //   throw new Error('Invalid nonce!')
-        // }
         // Mint coins **only if identity is PayPal**
         if (tx.contents.type === 'mint') {
-            if(tx.contents.from !== this.wallet.address) {
+            if (tx.contents.from !== this.wallet.address) {
                 throw new Error('Non-Paypal Clients can\'t mint!')
             }
             this.state[tx.contents.to].balance += tx.contents.amount
@@ -44,8 +40,7 @@ class Paypal extends Client {
             }
             this.state[tx.contents.from].balance -= tx.contents.amount
             this.state[tx.contents.to].balance += tx.contents.amount
-        }
-        // state[[tx.contents.from]].nonce += 1       
+        }    
     }
 }
 

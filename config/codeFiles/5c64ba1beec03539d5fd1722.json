@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/pendingTxTest.js",
+  "name": "pendingTxTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c6491e3eec03539d5fd1718",
+  "codeStageIds": [
+    "5c64b223eec03539d5fd171f"
+  ],
+  "id": "5c64ba1beec03539d5fd1722",
+  "initialCode": "$$LOOKUP"
+}

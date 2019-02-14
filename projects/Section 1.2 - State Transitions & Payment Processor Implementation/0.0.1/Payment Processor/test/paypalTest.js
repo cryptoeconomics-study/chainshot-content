@@ -3,8 +3,12 @@ const assert = require('assert');
 import EthCrypto from 'eth-crypto';
 
 describe('Paypal Constructor', function () {
-    const genesis = {}
-    let paypal = new Paypal(genesis)
+    const paypal = new Paypal()
+    const genesis = {
+        [paypal.wallet.address]: {
+            balance: 0
+        }
+    }
     it('should properly set this.state', function () {
         assert.deepEqual(paypal.state, genesis)
     });

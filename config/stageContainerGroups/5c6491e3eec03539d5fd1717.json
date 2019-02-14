@@ -1,0 +1,9 @@
+{
+  "title": "Section 1.3 - Replay Protection",
+  "id": "5c6491e3eec03539d5fd1717",
+  "containerType": "BuildingBlock",
+  "description": "Protecting against undesired resubmission of transactions",
+  "thumbnailUrl": "https://i.imgur.com/f5UbVoH.png",
+  "productionReady": true,
+  "estimatedTime": 30
+}

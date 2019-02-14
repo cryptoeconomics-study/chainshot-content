@@ -4,7 +4,11 @@ import Client from './Client.js'
 class Paypal extends Client {
     constructor(genesis) {
         super()
-        this.state = genesis
+        this.state = {
+            [this.wallet.address]: {
+                balance: 0
+            }
+        }
         this.transactions = []
     }
 }

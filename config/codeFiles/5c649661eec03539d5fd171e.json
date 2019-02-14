@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/nonceTest.js",
+  "name": "nonceTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c6491e3eec03539d5fd1718",
+  "codeStageIds": [
+    "5c649377eec03539d5fd1719"
+  ],
+  "id": "5c649661eec03539d5fd171e",
+  "initialCode": "$$LOOKUP"
+}
