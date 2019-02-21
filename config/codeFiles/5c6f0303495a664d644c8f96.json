@@ -1,0 +1,17 @@
+{
+  "executablePath": "oldPaypal.js",
+  "name": "oldPaypal.js",
+  "executable": false,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "5c6cb5ee8657451692f14a16",
+  "codeStageIds": [
+    "5c6f02e5495a664d644c8f93"
+  ],
+  "id": "5c6f0303495a664d644c8f96",
+  "initialCode": "$$LOOKUP",
+  "fileLocation": null
+}

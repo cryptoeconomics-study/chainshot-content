@@ -2,12 +2,11 @@ import EthCrypto from 'eth-crypto'
 import Client from './Client.js'
 
 class Paypal extends Client {
-    constructor(genesis) {
+    constructor() {
         super()
         this.state = {
             [this.wallet.address]: {
-                balance: 0,
-                nonce: -1
+                balance: 0
             }
         }
         this.transactions = []
@@ -23,15 +22,10 @@ class Paypal extends Client {
         if (!validSig) {
             throw new Error('Invalid signature!')
         }
-        // Check that the nonce is correct for replay protection
-        if (tx.contents.nonce !== this.state[tx.contents.from].nonce + 1) {
-            return
-        }
         // If we don't have a record for this address, create one
         if (!(tx.contents.to in this.state)) {
             this.state[tx.contents.to] = {
-                balance: 0,
-                nonce: -1
+                balance: 0
             }
         }
         // Mint coins **only if identity is PayPal**
@@ -46,8 +40,7 @@ class Paypal extends Client {
             }
             this.state[tx.contents.from].balance -= tx.contents.amount
             this.state[tx.contents.to].balance += tx.contents.amount
-        }
-        this.state[tx.contents.from].nonce += 1
+        }    
     }
 }
 

@@ -1,0 +1,9 @@
+{
+  "title": "Section 1.4 - Account Model vs. UTXOs",
+  "id": "5c6cb5ee8657451692f14a15",
+  "containerType": "BuildingBlock",
+  "description": "Learn how to implement the UTXO model & why you might want to!",
+  "thumbnailUrl": "https://i.imgur.com/ZM5e8Hx.png",
+  "productionReady": true,
+  "estimatedTime": 60
+}

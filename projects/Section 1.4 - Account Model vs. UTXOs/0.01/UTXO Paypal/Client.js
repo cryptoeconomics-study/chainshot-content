@@ -3,7 +3,6 @@ import EthCrypto from 'eth-crypto'
 class Client {
     constructor() {
         this.wallet = EthCrypto.createIdentity()
-        this.nonce = -1;
     }
 
     toHash(data) {
@@ -22,21 +21,6 @@ class Client {
     verify(signature, messageHash, address) {
         const signer = EthCrypto.recover(signature, messageHash)
         return signer === address
-    }
-
-    generateTx(to, amount, type) {
-        const unsignedTx = {
-            type: type,
-            amount: amount,
-            from: this.wallet.address,
-            to: to,
-            nonce: ++this.nonce
-        }
-        const tx = {
-            contents: unsignedTx,
-            sig: this.sign(unsignedTx)
-        }
-        return tx
     }
 }
 

@@ -1,0 +1,12 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c6491e3eec03539d5fd1718",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Completion",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 2,
+  "id": "5c6deaf6318a0b21aab874b6"
+}

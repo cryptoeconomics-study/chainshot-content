@@ -1,0 +1,19 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c6cb5ee8657451692f14a16",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "UTXO Paypal",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 0,
+  "id": "5c6f02e5495a664d644c8f93",
+  "codeFileIds": [
+    "5c6f02ed495a664d644c8f94",
+    "5c6f0303495a664d644c8f96",
+    "5c6f386c495a664d644c8f98"
+  ],
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel"
+}

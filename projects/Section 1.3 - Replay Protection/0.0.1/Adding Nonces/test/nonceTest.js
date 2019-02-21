@@ -4,8 +4,7 @@ const assert = require('assert');
 import EthCrypto from 'eth-crypto';
 
 describe('Functioning Nonces', function () {
-    const genesis = {}
-    let paypal = new Paypal(genesis)
+    let paypal = new Paypal()
     let alice = new Client()
     let bob = new Client()
     const tx1 = paypal.generateTx(alice.wallet.address, 100, 'mint'),
@@ -45,14 +44,14 @@ describe('Functioning Nonces', function () {
             assert.deepEqual(paypal.state[paypal.wallet.address], 
                 {
                     balance: 0,
-                    nonce: 0
+                    nonce: 1
                 })
         })
         it('should correctly set nonce of a new receiver', function () {
             assert.deepEqual(paypal.state[alice.wallet.address], 
                 {
                     balance: 100,
-                    nonce: -1
+                    nonce: 0
                 })
         })
 
@@ -61,11 +60,11 @@ describe('Functioning Nonces', function () {
             assert.deepEqual(paypal.state, {
                 [alice.wallet.address]: {
                     balance: 100,
-                    nonce: -1
+                    nonce: 0
                 },
                 [paypal.wallet.address]: {
                     balance: 0,
-                    nonce: 0
+                    nonce: 1
                 }
             })
         })
@@ -76,15 +75,15 @@ describe('Functioning Nonces', function () {
             assert.deepEqual(paypal.state, {
                 [alice.wallet.address]: {
                     balance: 80,
-                    nonce: 1
+                    nonce: 2
                 },
                 [paypal.wallet.address]: {
                     balance: 0,
-                    nonce: 0
+                    nonce: 1
                 },
                 [bob.wallet.address]: {
                     balance: 20,
-                    nonce: -1
+                    nonce: 0
                 }
             })
         })
@@ -95,15 +94,15 @@ describe('Functioning Nonces', function () {
             assert.deepEqual(paypal.state, {
                 [alice.wallet.address]: {
                     balance: 80,
-                    nonce: 1
+                    nonce: 2
                 },
                 [paypal.wallet.address]: {
                     balance: 0,
-                    nonce: 0
+                    nonce: 1
                 },
                 [bob.wallet.address]: {
                     balance: 20,
-                    nonce: -1
+                    nonce: 0
                 }
             })
         })

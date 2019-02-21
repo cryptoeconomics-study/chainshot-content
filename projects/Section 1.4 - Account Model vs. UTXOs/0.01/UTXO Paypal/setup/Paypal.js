@@ -2,7 +2,7 @@ import EthCrypto from 'eth-crypto'
 import Client from './Client.js'
 
 class Paypal extends Client {
-    constructor(genesis) {
+    constructor() {
         super()
         this.state = {
             [this.wallet.address]: {
@@ -40,7 +40,7 @@ class Paypal extends Client {
             }
             this.state[tx.contents.from].balance -= tx.contents.amount
             this.state[tx.contents.to].balance += tx.contents.amount
-        }    
+        }
     }
 }
 
