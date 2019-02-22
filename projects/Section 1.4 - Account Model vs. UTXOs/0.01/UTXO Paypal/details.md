@@ -1,28 +1,27 @@
 ## Format Guide
 
-##
-
 ### Example state
 
 ```
 {  
-    outputs: [
+    txOutputs: [
         {
-            value: 10,
-            owner: 0x17a2,
+            value: 1000,
+            owner: 0x123,
         },
         {
             value: 500,
-            owner: 0xa11ce,
+            owner: 0xabc,
         },
         {
             value: 500,
-            owner: 0xb0b,
+            owner: 0xdef,
         }
     ], 
-    is_spent: [1, 0, 0]
+    isSpent: [1, 0, 0]
 }
 ```
+The values of the isSpent array correspond to each TX in the txOutputs array. 1 = spent, 0 = unspent.
 
 ### Transaction format
 ```
@@ -42,13 +41,15 @@
     contents: {
         inputs: [1, 2],
         outputs: [
-            {value: 25, owner: accounts.jing.address},
-            {value: 25, owner: accounts.aparna.address},
-            {value: 50, owner: accounts.paypal.address}
+            {value: 250, owner: 0xabc},
+            {value: 250, owner: 0x123},
+            {value: 500, owner: 0x456}
         ]
     }, 
     sigs: [
-
+        signature1,
+        signature2
     ]
 }
 ```
+The elements in the `inputs` array correspond to the index in the `txOutputs` array of the `state`. In this example, inputs 1 and 2 correspond to `txOutputs[1]` and `txOutputs[2]`

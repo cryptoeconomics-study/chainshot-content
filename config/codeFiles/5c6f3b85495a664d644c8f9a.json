@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/UTXOTest.js",
+  "name": "UTXOTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c6cb5ee8657451692f14a16",
+  "codeStageIds": [
+    "5c6f02e5495a664d644c8f93"
+  ],
+  "id": "5c6f3b85495a664d644c8f9a",
+  "initialCode": "$$LOOKUP"
+}
