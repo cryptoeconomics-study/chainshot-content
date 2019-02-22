@@ -1,0 +1,15 @@
+{
+  "type": "VideoStage",
+  "containerId": "5c423025bf76a9bb48c81c9e",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Intro",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 0,
+  "id": "5c6f587d7c2c587cd61601bf",
+  "testFramework": null,
+  "languageVersion": null,
+  "youtubeId": "FLIo_ZjV--U"
+}
