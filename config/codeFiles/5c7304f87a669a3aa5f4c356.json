@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/rentExtractionTest.js",
+  "name": "rentExtractionTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c71eb047a669a3aa5f4c349",
+  "codeStageIds": [
+    "5c71fdc47a669a3aa5f4c352"
+  ],
+  "id": "5c7304f87a669a3aa5f4c356",
+  "initialCode": "$$LOOKUP"
+}

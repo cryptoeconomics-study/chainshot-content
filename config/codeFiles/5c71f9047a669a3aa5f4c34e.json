@@ -1,0 +1,17 @@
+{
+  "executablePath": "FT_Paypal.js",
+  "name": "FT_Paypal.js",
+  "executable": true,
+  "hasProgress": true,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "5c71eb047a669a3aa5f4c349",
+  "codeStageIds": [
+    "5c71eef57a669a3aa5f4c34a"
+  ],
+  "id": "5c71f9047a669a3aa5f4c34e",
+  "initialCode": "$$LOOKUP",
+  "fileLocation": null
+}

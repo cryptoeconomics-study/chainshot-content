@@ -1,0 +1,20 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c71eb047a669a3aa5f4c349",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Fraud",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 3,
+  "id": "5c73134d7a669a3aa5f4c35c",
+  "codeFileIds": [
+    "5c7323e17a669a3aa5f4c35d",
+    "5c71f91a7a669a3aa5f4c350",
+    "5c7324807a669a3aa5f4c360"
+  ],
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel",
+  "youtubeId": null
+}

@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/censorshipTest.js",
+  "name": "censorshipTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c71eb047a669a3aa5f4c349",
+  "codeStageIds": [
+    "5c7308e47a669a3aa5f4c357"
+  ],
+  "id": "5c7310577a669a3aa5f4c35b",
+  "initialCode": "$$LOOKUP"
+}

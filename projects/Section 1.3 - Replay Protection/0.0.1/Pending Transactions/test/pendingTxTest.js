@@ -11,7 +11,7 @@ describe('Invalid Nonce Handling', function () {
         tx2 = alice.generateTx(bob.wallet.address, 10, 'send'),
         tx3 = alice.generateTx(bob.wallet.address, 10, 'send')
     it('should call applyTransaction in onReceive', function () {
-        paypal.onReceive(tx1)  
+        paypal.onReceive(tx1)
         assert.deepEqual(paypal.state, {
             [alice.wallet.address]: {
                 balance: 100,

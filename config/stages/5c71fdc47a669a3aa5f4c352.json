@@ -1,0 +1,20 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c71eb047a669a3aa5f4c349",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Rent Extraction",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 1,
+  "id": "5c71fdc47a669a3aa5f4c352",
+  "codeFileIds": [
+    "5c7304357a669a3aa5f4c353",
+    "5c71f91a7a669a3aa5f4c350",
+    "5c7304f87a669a3aa5f4c356"
+  ],
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel",
+  "youtubeId": null
+}

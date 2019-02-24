@@ -1,0 +1,20 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c71eb047a669a3aa5f4c349",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Fault Tolerance",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 0,
+  "id": "5c71eef57a669a3aa5f4c34a",
+  "codeFileIds": [
+    "5c71f5207a669a3aa5f4c34b",
+    "5c71f9047a669a3aa5f4c34e",
+    "5c71f91a7a669a3aa5f4c350"
+  ],
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel",
+  "youtubeId": null
+}

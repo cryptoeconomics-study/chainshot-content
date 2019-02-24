@@ -1,0 +1,20 @@
+{
+  "type": "CodeStage",
+  "containerId": "5c71eb047a669a3aa5f4c349",
+  "language": "javascript",
+  "completionMessage": "$$LOOKUP",
+  "title": "Censorship",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "position": 2,
+  "id": "5c7308e47a669a3aa5f4c357",
+  "codeFileIds": [
+    "5c730e4e7a669a3aa5f4c358",
+    "5c71f91a7a669a3aa5f4c350",
+    "5c7310577a669a3aa5f4c35b"
+  ],
+  "testFramework": "mocha_bdd",
+  "languageVersion": "10.x/babel",
+  "youtubeId": null
+}

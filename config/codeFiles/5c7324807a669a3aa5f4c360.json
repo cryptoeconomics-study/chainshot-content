@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/fraudTest.js",
+  "name": "fraudTest.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c71eb047a669a3aa5f4c349",
+  "codeStageIds": [
+    "5c73134d7a669a3aa5f4c35c"
+  ],
+  "id": "5c7324807a669a3aa5f4c360",
+  "initialCode": "$$LOOKUP"
+}

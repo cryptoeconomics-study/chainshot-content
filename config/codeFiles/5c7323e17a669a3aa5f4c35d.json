@@ -1,0 +1,16 @@
+{
+  "executablePath": "Paypal.js",
+  "name": "Paypal.js",
+  "executable": true,
+  "hasProgress": true,
+  "mode": "javascript",
+  "readOnly": false,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "5c71eb047a669a3aa5f4c349",
+  "codeStageIds": [
+    "5c73134d7a669a3aa5f4c35c"
+  ],
+  "id": "5c7323e17a669a3aa5f4c35d",
+  "initialCode": "$$LOOKUP"
+}
