@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/FT_Test.js",
+  "name": "FT_Test.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "5c71eb047a669a3aa5f4c349",
+  "codeStageIds": [
+    "5c71eef57a669a3aa5f4c34a"
+  ],
+  "id": "5c7330337a669a3aa5f4c361",
+  "initialCode": "$$LOOKUP"
+}
