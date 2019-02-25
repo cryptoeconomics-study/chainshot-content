@@ -12,17 +12,11 @@ class Paypal extends Client {
         }
         this.transactions = []
         this.invalidNonceTxs = {}
-        //Add backups for fault tolerance
-        this.backups = []
         this.blacklist = []
     }
     onReceive(tx) {
         this.applyTransaction(tx)
         this.applyInvalidNonceTxs(tx.contents.from)
-        for (let backup in this.backups) {
-            //Send transactions to all backups
-            backup.onReceive(tx)
-        }
     }
 
     applyInvalidNonceTxs(address) {
